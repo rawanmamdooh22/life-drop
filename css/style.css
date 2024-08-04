@@ -1,0 +1,278 @@
+a{
+    text-decoration: none !important;
+}
+/* donors */
+.word h1{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    transition: .3s all ease-in-out;
+    padding: 15px 5px;  
+    border: 0;
+    text-align: center;
+    width: 155px;
+    border-radius: 15px;
+    background-color: brown;
+    margin-top: 155px;
+    margin-left: 660px;
+}
+.table1{
+    width: 75%; 
+    height: 50%;
+    background-color: white; 
+    margin: 0 auto;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: brown;
+    
+}
+tr { 
+    border-color: inherit!important;
+    border-style: solid!important;
+    border-width: 1px!important;
+}
+th {
+    border-color: inherit !important;
+    border-style: solid !important;
+    border-width: 3px !important;
+    padding: 0 10px;
+}
+td {
+    border-color: inherit!important;
+    border-style: solid!important;
+    border-width: 3px!important;
+    padding: 0 10px;
+}
+
+.table1{
+    padding: 1000px !important;
+    border-width: 5px;
+
+}
+/* end of donors */
+/* find donors */
+.word1 h1{
+    color: brown;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    transition: .3s all ease-in-out;
+    padding: 15px 5px;  
+    border: 0;
+    text-align: center;
+    width: 200px;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 5em;
+}
+.word1::after {
+    content: '';
+    width: 200px;
+    height: 7px;
+    background-color: #fff;
+    position: absolute;
+    top: 210px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+.form-group2{
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 32em !important;
+    height: 105% !important;  
+    border: none;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: brown;
+    text-align: center;
+    padding-top: 15px;
+
+}
+.form-group2 .mail{
+    padding: 0 20px;
+    width: 60%;
+    padding: 15px;
+    margin-left: 130px;
+    border-right: 0;
+    border-left: 0;
+    margin: 0 auto;
+    padding-left: 0 !important;
+    padding-right: 0 !important; 
+}
+.form-control{
+    border: 0 !important;
+}
+.country{
+    padding: 0 20px; 
+    width: 400px;
+    padding: 15px;
+    margin-left: 130px;
+    border-right: 0;
+    border-left: 0;
+}
+.city{
+    padding: 0 20px; 
+    width: 400px;
+    padding: 15px;
+    margin-left: 130px;
+    border-right: 0;
+    border-left: 0;
+}
+.one1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid brown;
+    border-radius: 50px;
+}
+.form-control{
+    border: 0 !important ;
+    padding: 5px; 
+}
+.form-control:active{
+    border: 0 !important ;
+    outline: 0;
+}
+.form-control:focus{
+    box-shadow: none !important;
+}
+.send-btn button{
+    padding: 15px 5px;
+    border: 0;
+    margin: 25px auto;
+    width: 120px;
+    border-radius: 15px;
+    background-color: brown;
+    color:white;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: sans-serif;
+    transition: .3s all ease-in-out;
+}
+#btn-send {
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: sans-serif;
+    transition: .3s all ease-in-out;
+}
+.send-btn button {
+    padding: 15px 5px;
+    border: 0;
+    width: 240px;
+    border-radius: 15px;
+    background-color: brown;
+}
+#btn-send:hover{
+    color: brown;
+    background-color:black;
+    
+}
+.table-btn .send-btn button{
+    display: flex;
+    justify-content: center;
+    
+}
+/* end of find donors */
+/* donate now */
+.word2 h1{
+    color: brown;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    transition: .3s all ease-in-out;
+    padding: 15px 5px;  
+    border: 0;
+    text-align: center;
+    width: 200px;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 5em;
+}
+.word2::after {
+    content: '';
+    width: 200px;
+    height: 7px;
+    background-color: #fff;
+    position: absolute;
+    top: 210px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+.form-group3{
+    background: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 33em;
+    height: 95%; 
+    border: none;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: brown;
+    text-align: center;
+    padding-top: 15px;
+}
+.form-group3 .mail{
+    padding: 0 20px;
+    width: 60%;
+    padding: 15px;
+    margin-left: 130px;
+    border-right: 0;
+    border-left: 0;
+    margin: 0 auto;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.form-group3 #btn-save {
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: sans-serif;
+    transition: .3s all ease-in-out;
+}
+.form-group3 .save-btn button {
+    padding: 15px 5px;
+    border: 0;
+    width: 100px;
+    margin-top: 23px;
+    border-radius: 15px;
+    background-color: brown;
+}
+.form-group3 #btn-save:hover{
+    color: brown;
+    background-color:black;
+    
+}
+/* end of donate now */
+
+@media (max-width: 991px) {
+    .form-group3 {
+            width: 90% !important; 
+            height: 104% !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            padding-top: 15px;
+    }
+    .form-group3 .mail{
+        width: 70%;
+    }
+}
+
+@media (max-width: 975px) {
+    .form-group2 {
+            width: 90% !important; 
+            height: 120% !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            padding-top: 15px;
+    } 
+    .form-group2 .mail{ 
+        width: 80%;
+    }
+ }

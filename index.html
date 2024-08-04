@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/navPage.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Manifest json -->
+    <link rel="manifest" href="manifest.json">
+    <!--   Font Awesome  -->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="image/loader.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Life Drop</title>
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loading-screen">
+        <img class="loader" src="image/loader.png" alt="">
+    </div>
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="Nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> 
+                <img src="image/logo.png" class="logo" alt="">
+            </a>
+            <!-- Navbar Brand -->
+            <button class="navbar-toggler" style="border: 0; color: transparent;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <label class="hamburger">
+                    <input type="checkbox">
+                    <svg viewBox="0 0 32 32">
+                        <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+                        <path class="line" d="M7 16 27 16"></path>
+                    </svg>
+                </label>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" data-translate="nav-home" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-translate="nav-about" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-translate="nav-con" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-translate="nav-log" href="login.html">Log in</a>
+                    </li>
+                </li>
+                <a class="nav-link" href="admin.html">Admin</a>
+                </li>
+            
+                    <div>
+                        <div class="dropdown-list" >
+                            <button id="englishText" class="language-button" onclick="changeLanguage('en')">
+                                <img width="28" height="28" src="https://img.icons8.com/color/48/great-britain-circular.png" alt="great-britain-circular"/>
+                                <span>EN</span>
+                            </button>
+                        </div>
+
+                        <div class="dropdown-list" >
+                            <button id="arabicText" class="language-button" onclick="changeLanguage('ar')">
+                                <img width="28" height="28" src="https://img.icons8.com/fluency/48/egypt-circular.png" alt="egypt-circular"/>
+                                <span>عربي</span>
+                            </button>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- Home Section -->
+    <section class="start">
+        <div class="blood">
+            <h3 data-translate="first" class="title-home">Donate Blood</h3>
+            <h2 data-translate="Blood"> Save A Life </h2>
+            <p  data-translate="p-title">Your Blood can bring smile
+                in any one person Face
+            </p>
+            <div class="btns-home">
+                <a href="donatenow.html" class="Donate-btn"  role="button" aria-pressed="true">
+                    <button id="btn-donor" data-translate="donor-bnt">
+                        Be a Donor
+                    </button>
+                </a>
+                <a href="doners.html" class="Donate-btn"  role="button" aria-pressed="true">
+                    <button id="btn-find" data-translate="find-btn">
+                        Find a Donor
+                    </button>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About us Section -->
+    <div class="container" >
+        <div class="row justify-content-center aos-init aos-animate" id="about" >
+            <div class="main-title position-relative">
+                <h2 class="text-center fw-bold" data-translate="about-title">About Us</h2>
+            </div>
+            <div class="col-lg-7" >
+                <ol class="about-title">
+                    <li data-translate="li-one">We provide Pharma Lab for conducting the necessary medical tests. Please visit the lab within a maximum of 3 days for the tests.(Address:Mansoura-Banque Misr Street - Makin Tower (1) - in front of the eighth floor, Koshary El Wali elevator).</li>
+                    <li data-translate="li-two">Blood donation is a crucial act where individuals voluntarily give blood to be used for medical treatments, surgeries, and emergencies.</li>
+                    <li data-translate="li-three">Donated blood is often used to help patients with various medical conditions, including those undergoing surgeries, cancer treatments, and those who have experienced trauma.</li>
+                    <li data-translate="li-four">it plays a vital role in healthcare, saving countless lives. If you're considering donating, reach out to local blood donation centers or organizations to find opportunities.</li>
+                </ol>
+                <div>
+                    <button class="btn-book" >
+                        <a href="#about-sec" data-translate="about-btn">Medical instructions</a>
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-3 img-div mx-auto fade-right scrolled">
+                <img class="img" src="image/photo_2024-02-25_02-51-03.jpg" alt="" />
+            </div>
+                
+        </div>
+    </div>
+
+    <!-- instruction section -->
+    <section id="about-sec" >
+        <div class="about-title1 col-lg-9 container">
+            <div class="main-title position-relative" >
+                <h2 class="text-center fw-bold" data-translate="about-btn">Medical instructions</h2>
+            </div>
+            <ol>
+                <li data-translate="la-one">The donor must be in good health and not suffering from any infectious diseases.</li>
+                <li data-translate="la-two">The hemoglobin level for men should be 14-17 g, and for women it should be 12-14 g.</li>
+                <li data-translate="la-three">Blood pressure should be in the normal range of 120/80 mm Hg.</li>
+                <li data-translate="la-four">The pulse should be between 50-100 per minute.</li>
+                <li data-translate="la-five">The temperature should not exceed 37 degrees Celsius.</li>
+                <li data-translate="la-six">An adult in good health can donate about (450-500 ml) of his blood without any fears or risks to his health, and he can donate every two months so that the number of times he donates does not exceed 5 times a year.</li>
+                <li data-translate="la-seven">Fasting before donating: It is preferable for donors to fast for a certain period before donating blood, in order to ensure the best quality of the donated blood.</li>
+                <li data-translate="la-eight">After donating, you take a break and have a snack, and after 10-15 minutes you can leave the donation site Avoid strenuous physical activity or heavy lifting for 5 hours after donation.</li>
+                <li data-translate="la-nine">When feeling dizzy, it is recommended to lie on your back with your feet elevated.</li>
+                <li data-translate="la-ten">Drink plenty of fluids.</li>
+            </ol>
+        </div>
+    </section>
+    <!-- end of instruction section -->
+
+    <!-- contact us section -->
+    <section id="contact">
+        <div class="contact-title">
+            <h1 data-translate="contact">Contact Us</h1>
+        </div>
+        <form action="" class="contact-form">
+            <div class="margin">
+                <div class="inputGroup">      
+                    <input  type="text" required />
+                    <span class="inputBar"></span>
+                    <label data-translate="con-name">Name</label>
+                </div>
+                <div class="inputGroup">      
+                    <input type="text" required />
+                    <span class="inputBar"></span>
+                    <label data-translate="con-email">Email</label>
+                </div>
+                <div class="inputGroup">      
+                    <textarea type="textarea" required></textarea>
+                    <span class="inputBar"></span>
+                    <label data-translate="con-message">Message</label>
+                </div>
+                <button class="contact-btn" data-translate="con-btn">Send</button>
+            </div>
+        </form>
+    </section>
+    <!-- end of contact section -->
+
+
+    <!-- Footer -->
+    <footer class="pt-4 mt-1 text-center text-lg-start bg-body-tertiary text-muted">
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h2 class="text-uppercase fw-bold mb-4">
+                            Life Drop
+                        </h2>
+                        <p data-translate="footer-about">
+                            A website that tries to help people save blood and helping people in emergency situations to obtain blood as quickly as possible.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4" data-translate="contact">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            info@example.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                        <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2024 Life Drop Team 
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+    <!-- Scroll Section -->
+    <div class="scrollBtn active" href="#" >
+        <i class="fas fa-angle-double-up" aria-hidden="true"></i>
+    </div>
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+    <script src="js/lang.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

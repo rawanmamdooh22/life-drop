@@ -1,0 +1,570 @@
+/* Home */
+.loading-screen {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: brown;
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    animation-duration: 1s;
+}
+.loader {
+    animation: pulse 1s infinite alternate;
+} 
+@keyframes pulse {
+    0% {
+        transform: scale(1) translateX(0) translateY(0); 
+    }
+    50% {
+        transform: scale(1.2) translateX(-5px) translateY(5px);
+    }
+    100% {
+        transform: scale(1) translateX(0) translateY(0);
+    }
+} 
+/* Home section */
+.blood{
+    text-align: center;
+    padding: 17em 2em;
+    width: 100%;
+}
+.blood .title-home{
+    color: brown;
+    font-size: 44px;
+}
+.blood h2{
+    color: #4d4d4d;
+    font-size: 36px;
+}
+.blood p{
+    font-size: 20px;
+}
+.blood .btns-home{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.blood .Donate-btn button{
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 10px;
+}
+.blood #btn-donor{
+    color: brown;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: sans-serif;
+    transition: .3s all ease-in-out;
+}
+.blood #btn-donor:hover{
+    color: #fff;
+    background-color: brown;
+}
+
+.blood #btn-find{
+    color: #fff;
+    background-color: brown;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: sans-serif;
+    transition: .3s all ease-in-out;
+}
+.blood #btn-find:hover{
+    color: brown;
+    background-color: #fff;
+}
+.form .text1{
+    text-align: center;
+    padding: 20px;  
+}
+/* end of home section */
+
+/* log in */
+.form-group{
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 32em !important;  
+    border: none;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: brown;
+    text-align: center;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.form-group .mail{
+    padding: 0 20px !;
+    width: 60%;
+    padding: 15px 0;
+    border-right: 0;
+    border-left: 0;
+    margin: 0 auto;
+}
+.form-group .login-btn button{
+    padding: 15px 5px;
+    border: 0;
+    margin: 25px auto;
+    width: 240px;
+    border-radius: 15px;
+    background-color: brown;
+    color:white;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: sans-serif;
+    transition: .3s all ease-in-out;
+}
+.form-group #btn-login:hover{
+    color: brown;
+    background-color:black;
+    
+}
+.one{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid brown;
+    border-radius: 50px;
+}
+.form-control{
+    border: 0 !important ;
+    padding: 5px; 
+}
+.form-control:active{
+    border: 0 !important ;
+    outline: 0;
+}
+.form-control:focus{
+    box-shadow: none !important;
+}
+/* end of log in */
+
+/* sign up */
+.form-group1{
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 150px !important;
+    width: 32em !important;
+    height:33em;
+    border: none;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: brown;
+    text-align: center;
+    padding-left: 0px !important;
+    padding-right: 0PX !important;
+
+}
+.form-group1 .mail{
+    width: 65%;
+    padding: 15px;
+    border-right: 0;
+    border-left: 0;
+    margin: 0 auto;
+}
+.form-group1 .pass{
+    padding: 0 20px;
+    width: 62%;
+    margin-left: 127px;
+    
+}
+.name{
+    padding: 0 20px; 
+    width: 400px;
+    padding: 15px;
+    margin-left: 130px;
+    border-right: 0;
+    border-left: 0;
+}
+.age{
+    padding: 0 20px; 
+    width: 400px;
+    padding: 15px;
+    margin-left: 130px;
+    border-right: 0;
+    border-left: 0;
+}
+.country{
+    padding: 0 20px; 
+    width: 400px;
+    padding: 15px;
+    margin-left: 130px;
+    border-right: 0;
+    border-left: 0;
+}
+.form-group1 #btn-signup {
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: sans-serif;
+    transition: .3s all ease-in-out;
+}
+.form-group1 .signup-btn button {
+    padding: 15px 5px;
+    border: 0;
+    width: 240px;
+    border-radius: 15px;
+    background-color: brown;
+}
+.login{
+    margin: 10px 0;
+}
+.login p{
+    margin: 0;
+}
+.login a{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;   
+}
+.login a:hover{
+    color: black;
+} 
+.form-group1 #btn-signup:hover{
+    color: brown;
+    background-color:black;
+    
+}
+/* end of sign up */
+
+
+/* Contact Form */
+#contact{
+    background-color: #fff;
+    padding-top: 8em;
+}
+.contact-title{
+    margin: 0 0 50px;
+    text-align: center;
+    font-family: auto;
+}
+.contact-title::after {
+    content: '';
+    width: 170px;
+    height: 3px;
+    background-color: brown;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+form{
+    background: #00000038;
+    width: 30em;
+    padding: 50px 0;
+    margin: 0 auto;
+    text-align: -webkit-center;
+    border: 2px solid brown;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 0px #a52a2a4f;
+}
+.margin {
+    margin: 0 15%;
+}
+.inputGroup {
+    position: relative;
+    margin-bottom: 30px;
+}
+.inputGroup label {
+    position: absolute;
+    top: 0;
+    left: 28px;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    font-family: Trebuchet MS;
+    color: brown;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.inputGroup input,
+.inputGroup textarea {
+    display: block;
+    width: 280px;
+    border: none;
+    border-bottom: 1px solid #757575;
+    left: 25px;
+    padding: 5px;
+    font-family: Trebuchet MS;
+    background: none;
+    color: black;
+    outline: 0;
+}
+.inputGroup input:focus ~ label,
+.inputGroup input:valid ~ label,
+.inputGroup textarea:focus ~ label,
+.inputGroup textarea:valid ~ label {
+    top: -20px;
+    transition: all 0.3s ease; 
+    font-size: 13px;
+} 
+.inputGroup input:focus ~ .inputBar:before,
+.inputGroup input:focus ~ .inputBar:after,
+.inputGroup textarea:focus ~ .inputBar:before,
+.inputGroup textarea:focus ~ .inputBar:after {
+    width: 50%;
+}
+.inputGroup textarea {
+    height: 100px;
+    width: 280px;
+    outline: 0;
+    overflow: auto;
+    resize: none;
+}
+.inputGroup .inputBar {
+    position: relative;
+    display: block;
+    width: 290px;
+}
+.inputGroup .inputBar:before,
+.inputGroup .inputBar:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    background: brown;
+    height: 2px;
+    transition: all 0.2s ease;
+} 
+.inputGroup .inputBar:after {
+    right: 50%;
+}
+.inputGroup .inputBar:before {
+    left: 50%;
+}
+.about-title{
+    font-size: 20px;
+    line-height: 35px;
+    color: #1c1c1c;
+    font-family: monospace;
+    
+    font-weight: 600;
+}
+.btn-book{
+    background-color: brown;
+    margin-left: 10px;
+    font-size: 17px;
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: sans-serif;
+    transition: .3s all ease-in-out;
+}
+.btn-book a{
+    color: #fff;
+}
+.btn-book p {
+    position: absolute;
+    top: 0.4em; 
+    left: 2.15em;
+    margin: 0;
+    padding: 0;
+    transition: .5s;
+    color: #fff;
+}
+.btn-book #icon {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    transition: 0.5s;
+    height: 1em;
+    color: #fff;
+    
+}
+.btn-book:hover p {
+    left: 1.5em;
+    color: brown;
+}
+.btn-book:hover #icon {
+    opacity: 1;
+}
+.btn-book:hover {
+    background-color: black;
+    color: brown;
+    
+}
+.img-div{
+    text-align: center;
+    margin-top: 3em;
+}
+.img-div img {
+    transition: 0.5s all ease-in-out;
+}
+.img-div:hover img {
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+.hover-effect::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 1.5px;
+    background: #fff;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 300ms ease-in-out;
+}
+.hover-effect:hover::after {
+    transform-origin: right;
+    transform: scaleX(1);
+}
+.card{
+    background-color: rgb(17 24 39/1);
+    color: #fff;
+}
+.card-body{
+    direction: ltr;
+}
+#about img{
+    width: 300px;
+    border-radius: 10px;
+    
+    border: 3px solid brown;
+    height: 340px;
+}
+#about-sec{
+    padding-top: 8em;
+}
+.about-title1{
+    font-size: 20px;
+    line-height: 31px;
+    color: #1c1c1c;
+    font-family: monospace;
+    line-height: 47px;
+    font-weight: 600;
+    
+}
+li::marker{
+    color: brown;
+}
+/* contact us */
+.contact-btn {
+    color: #fff;
+    background-color: brown;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: sans-serif;
+    transition: .3s all ease-in-out;
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 10px;
+    width: 100%;
+}
+.contact-btn:hover {
+    color: brown;
+    background-color: #fff;
+}
+/* end of contqact us */
+
+/* Footer */
+footer{
+    border-top: 2px solid brown;
+    padding-top: 2em;
+}
+/* About Section */
+#about{
+    align-items: center;
+    padding: 8em 0;
+    /* direction: rtl; */
+    margin-top: 100px;
+}
+/* added part */
+.main-title{
+    margin-bottom:2rem ;
+    font-weight: bold;
+}
+.main-title::after{
+    content: '';
+    width: 170px;
+    height: 4px;
+    background-color:brown;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* end added part */
+
+@media (max-width: 991px){
+    #about img{
+        margin-top: 40px;
+    }
+    .about-title{
+        width: 100%;
+        line-height: 40px;
+        
+    }
+    .about-title1{
+        width: 90% !important;
+        line-height: 30px;
+    }
+}
+@media (max-width: 505px){
+    form{
+        width: 100%;
+    }
+    .contact-form{
+        width: 95%;
+    }
+}
+@media (max-width: 1201px) {
+}
+@media (max-width: 992px){
+    .navbar .navbar-nav{
+        padding-top: 1em;
+        text-align: center;
+        padding-bottom: 2em;
+    }
+    .navbar .nav-link{
+        padding: 19px 10px;
+        font-size: 18px;
+        position: relative;
+    }
+    .navbar .nav-link::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        border-radius: 4px;
+        margin-top: 1em;
+        background-color: #04273a;
+        bottom: -10px;
+        left: 0;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .3s ease-in-out;
+    }
+}
+@media (max-width: 652px) {
+    .form-group {
+        width: 100% !important;
+        padding-right: 0px !important;
+        padding-left: 0PX !important;
+
+    }
+
+    .form-group .mail{
+        width: 80% !important;
+    }
+
+    .form-group1 {
+        width: 100% !important;
+        margin-top: 140px !important;
+
+    }
+    .form-group1 .mail{
+        width: 80%;
+    }
+
+
+}
